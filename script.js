@@ -39,6 +39,10 @@ $(document).ready(function() {
         }, 1000); 
     }
 
+    document.getElementById('envelope').addEventListener('click', function() {
+    var audio = document.querySelector('audio');
+    audio.play();
+});
    
     function createFlower() {
         
